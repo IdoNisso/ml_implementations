@@ -17,7 +17,7 @@ This is a work in progress and will be occasionally updated with more implementa
 ## Implementations
   - Supervised learning
     * [K Nearest Neighbors](./ml_implementations/supervised_learning/k_nearest_neighbors.py)
-    * Linear Regression
+    * [Linear Regression](./ml_implementations/supervised_learning/linear_regression.py)
     * Logistic Regression
     * Naive Bayes
     * Decision Tree
@@ -33,6 +33,7 @@ This is a work in progress and will be occasionally updated with more implementa
 ## Usage examples
   - Supervised learning
     * [K Nearest Neighbors](./ml_implementations/usage_examples/k_nearest_neighbors.py)
+    * [Linear Regression](./ml_implementations/usage_examples/linear_regression.py)
 
 
 ## Contact

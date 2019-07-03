@@ -18,6 +18,7 @@ This is a work in progress and will be occasionally updated with more implementa
 
 ## Implementations
   - Supervised learning
+    * K Nearest Neighbors
     * Linear Regression
     * Logistic Regression
     * Naive Bayes
@@ -25,7 +26,8 @@ This is a work in progress and will be occasionally updated with more implementa
     * Random Forest
     * SVM
   - Unsupervised learning
-    * kNN
+    * K Means
+    * Principal Component Analysis
   - Deep learning
     * Neural Network 
 

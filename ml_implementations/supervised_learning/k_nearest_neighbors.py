@@ -10,8 +10,8 @@ class KNNClassifier:
     k_neighbors: int
         The number of closest neighbors to use when determining sample class.
     """
-    def __init__(self, k_neighbors):
-        self.k_neighbors = k_neighbors
+    def __init__(self, k):
+        self.k_neighbors = k
         self.training_set = None
         self.training_label = None
 

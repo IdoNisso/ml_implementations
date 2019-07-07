@@ -8,8 +8,7 @@ class OrdinaryLeastSquares:
     -----------
     None.
     """
-    def __init__(self, pad=True):
-        self.pad = pad
+    def __init__(self):
         self.weights = None
 
     def fit(self, X, y):
@@ -21,8 +20,8 @@ class OrdinaryLeastSquares:
     def _pad(X):
         return np.pad(X, ((0, 0), (1, 0)), 'constant', constant_values=1)
 
-    def _fit(self, X, y):
-        if self.pad:
+    def _fit(self, X, y, pad=True):
+        if pad:
             X = self._pad(X)
         X_pseudo_inverse = np.linalg.pinv(X)  # Moore-Penrose pseudo-inverse for more efficiency
         self.weights = np.dot(X_pseudo_inverse, y)
@@ -32,8 +31,8 @@ class OrdinaryLeastSquares:
             raise ValueError('no weights, run fit(X, y) to fit model before prediction')
         return self._predict(X)
 
-    def _predict(self, X):
-        if self.pad:
+    def _predict(self, X, pad=True):
+        if pad:
             y_pred = np.dot(self._pad(X), self.weights)
         else:
             y_pred = np.dot(X, self.weights)
@@ -66,8 +65,8 @@ class OrdinaryLeastSquaresGD(OrdinaryLeastSquares):
         self.early_stop = early_stop
         self.loss = []
 
-    def _fit(self, X, y):
-        if self.pad:
+    def _fit(self, X, y, pad=True):
+        if pad:
             X = self._pad(X)
         self.weights = np.zeros((X.shape[1], 1))
         for iter in range(self.n_iter):

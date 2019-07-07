@@ -18,7 +18,7 @@ This is a work in progress and will be occasionally updated with more implementa
   - Supervised learning
     * [K Nearest Neighbors](./ml_implementations/supervised_learning/k_nearest_neighbors.py)
     * [Linear Regression](./ml_implementations/supervised_learning/linear_regression.py)
-    * Logistic Regression
+    * [Logistic Regression](./ml_implementations/supervised_learning/logisitic_regression.py)
     * Naive Bayes
     * Decision Tree
     * Random Forest
@@ -34,6 +34,7 @@ This is a work in progress and will be occasionally updated with more implementa
   - Supervised learning
     * [K Nearest Neighbors](./ml_implementations/usage_examples/k_nearest_neighbors.py)
     * [Linear Regression](./ml_implementations/usage_examples/linear_regression.py)
+    * [Logistic Regression](./ml_implementations/usage_examples/logistic_regression.py)
 
 
 ## Contact

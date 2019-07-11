@@ -1,7 +1,7 @@
 # ML Implementations
 
 ## About
-This is yet another repo of Python implementations for several Machine Learning models from scratch. These implementations are by no means the best or most elegant, but are a learning opportunity to understand them in-depth and present them in a concise and understandable manner.
+This is yet another repo of Python implementations for several Machine Learning models from scratch. These implementations are by no means the best or most elegant, but are a learning opportunity to understand them in-depth and present them in an understandable manner. Much of the initial code was written as homework assignments during the [Y-Data](https://yandexdataschool.com/israel/) Supervised Learning course and inspired largely by [ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch). 
 
 This is a work in progress and will be occasionally updated with more implementations and fixes. The current plan is laid out in the [implementations](#implementations) section.
 

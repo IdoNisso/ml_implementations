@@ -22,7 +22,6 @@ This is a work in progress and will be occasionally updated with more implementa
     * [Naive Bayes](./ml_implementations/supervised_learning/naive_bayes.py)
     * Decision Tree
     * Random Forest
-    * SVM
   - Unsupervised learning
     * K Means
     * Principal Component Analysis

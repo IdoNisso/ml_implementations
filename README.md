@@ -21,7 +21,7 @@ This is a work in progress and will be occasionally updated with more implementa
     * [Logistic Regression](./ml_implementations/supervised_learning/logisitic_regression.py)
     * [Naive Bayes](./ml_implementations/supervised_learning/naive_bayes.py)
     * [Decision Tree](./ml_implementations/supervised_learning/decision_tree.py)
-    * Random Forest
+    * [Random Forest](./ml_implementations/supervised_learning/random_forest.py)
   - Unsupervised learning
     * K Means
     * Principal Component Analysis
@@ -36,6 +36,7 @@ This is a work in progress and will be occasionally updated with more implementa
     * [Logistic Regression](./ml_implementations/usage_examples/logistic_regression.py)
     * [Naive Bayes](./ml_implementations/usage_examples/naive_bayes.py)
     * [Decision Tree](./ml_implementations/usage_examples/decision_tree.py)
+    * [Random Forest](./ml_implementations/usage_examples/random_forest.py)
 
 
 ## Contact

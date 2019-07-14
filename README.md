@@ -26,7 +26,7 @@ List of current algorithms implemented:
     * [Random Forest](./ml_implementations/supervised_learning/random_forest.py)
 - Unsupervised Learning
     * [K Means](./ml_implementations/unsupervised_learning/k_means.py)
-    * Principal Component Analysis
+    * [Principal Component Analysis](./ml_implementations/unsupervised_learning/principal_component_analysis.py)
 - Deep Learning
     * Basic Neural Network 
 
@@ -42,7 +42,7 @@ Using the implemented algorithms in toy problems:
     * [Random Forest](./ml_implementations/usage_examples/random_forest.py)
 - Unsupervised Learning
     * [K Means](./ml_implementations/usage_examples/k_means.py)
-    * Principal Component Analysis
+    * [Principal Component Analysis](./ml_implementations/usage_examples/principal_component_analysis.py)
 - Deep Learning
     * Basic Neural Network
 

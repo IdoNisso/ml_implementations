@@ -40,7 +40,6 @@ class KMeans:
         return centroids
 
     def _create_clusters(self, X, centroids):
-        n_samples = np.shape(X)[0]
         clusters = [[] for _ in range(self.k)]
         for sample_i, sample in enumerate(X):
             centroid_i = self._find_closest_centroid(sample, centroids)

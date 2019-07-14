@@ -7,37 +7,44 @@ This is a work in progress and will be occasionally updated with more implementa
 
 
 ## Table of Contents
-  - [ML Implementations](#ml-implementations)
+- [ML Implementations](#ml-implementations)
     * [About](#about)
     * [Table of Contents](#table-of-contents)
     * [Implementations](#implementations)
+    * [Usage Examples](#usage-examples)
     * [Contact](#contact)
 
 
 ## Implementations
-  - Supervised learning
+List of current algorithms implemented:
+- Supervised Learning
     * [K Nearest Neighbors](./ml_implementations/supervised_learning/k_nearest_neighbors.py)
     * [Linear Regression](./ml_implementations/supervised_learning/linear_regression.py)
     * [Logistic Regression](./ml_implementations/supervised_learning/logisitic_regression.py)
     * [Naive Bayes](./ml_implementations/supervised_learning/naive_bayes.py)
     * [Decision Tree](./ml_implementations/supervised_learning/decision_tree.py)
     * [Random Forest](./ml_implementations/supervised_learning/random_forest.py)
-  - Unsupervised learning
-    * K Means
+- Unsupervised Learning
+    * [K Means](./ml_implementations/unsupervised_learning/k_means.py)
     * Principal Component Analysis
-  - Deep learning
-    * Neural Network 
+- Deep Learning
+    * Basic Neural Network 
 
 
-## Usage examples
-  - Supervised learning
+## Usage Examples
+Using the implemented algorithms in toy problems:
+- Supervised Learning
     * [K Nearest Neighbors](./ml_implementations/usage_examples/k_nearest_neighbors.py)
     * [Linear Regression](./ml_implementations/usage_examples/linear_regression.py)
     * [Logistic Regression](./ml_implementations/usage_examples/logistic_regression.py)
     * [Naive Bayes](./ml_implementations/usage_examples/naive_bayes.py)
     * [Decision Tree](./ml_implementations/usage_examples/decision_tree.py)
     * [Random Forest](./ml_implementations/usage_examples/random_forest.py)
-
+- Unsupervised Learning
+    * [K Means](./ml_implementations/usage_examples/k_means.py)
+    * Principal Component Analysis
+- Deep Learning
+    * Basic Neural Network
 
 ## Contact
 Feel free to contact me to discuss these implementations by [email](mailto:idonissim@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/idonissim/).

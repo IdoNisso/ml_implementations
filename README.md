@@ -20,7 +20,7 @@ This is a work in progress and will be occasionally updated with more implementa
     * [Linear Regression](./ml_implementations/supervised_learning/linear_regression.py)
     * [Logistic Regression](./ml_implementations/supervised_learning/logisitic_regression.py)
     * [Naive Bayes](./ml_implementations/supervised_learning/naive_bayes.py)
-    * Decision Tree
+    * [Decision Tree](./ml_implementations/supervised_learning/decision_tree.py)
     * Random Forest
   - Unsupervised learning
     * K Means
@@ -35,6 +35,7 @@ This is a work in progress and will be occasionally updated with more implementa
     * [Linear Regression](./ml_implementations/usage_examples/linear_regression.py)
     * [Logistic Regression](./ml_implementations/usage_examples/logistic_regression.py)
     * [Naive Bayes](./ml_implementations/usage_examples/naive_bayes.py)
+    * [Decision Tree](./ml_implementations/usage_examples/decision_tree.py)
 
 
 ## Contact

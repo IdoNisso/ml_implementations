@@ -1,9 +1,9 @@
 # ML Implementations
 
 ## About
-This is yet another repo of Python implementations for several Machine Learning models from scratch. These implementations are by no means the best or most elegant, but are a learning opportunity to understand them in-depth and present them in a hopefully understandable manner. Much of the initial code was written as homework assignments during the [Y-Data](https://yandexdataschool.com/israel/) Supervised Learning course and inspired largely by [ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch). 
+This is yet another repo of Python implementations for several Machine Learning models from scratch. These implementations are by no means the best or most elegant, but are a learning opportunity to understand them in-depth and present them in a (hopefully) understandable manner. Much of the initial code was written as homework assignments during the [Y-Data](https://yandexdataschool.com/israel/) Supervised Learning course and inspired largely by [ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch). 
 
-This is a work in progress and will be occasionally updated with more implementations and fixes. The current plan is laid out in the [implementations](#implementations) section.
+This is a work in progress and will be occasionally updated with more implementations and fixes.
 
 
 ## Table of Contents
@@ -27,8 +27,6 @@ List of current algorithms implemented:
 - Unsupervised Learning
     * [K Means](./ml_implementations/unsupervised_learning/k_means.py)
     * [Principal Component Analysis](./ml_implementations/unsupervised_learning/principal_component_analysis.py)
-- Deep Learning
-    * Basic Neural Network 
 
 
 ## Usage Examples
@@ -43,8 +41,7 @@ Using the implemented algorithms in toy problems:
 - Unsupervised Learning
     * [K Means](./ml_implementations/usage_examples/k_means.py)
     * [Principal Component Analysis](./ml_implementations/usage_examples/principal_component_analysis.py)
-- Deep Learning
-    * Basic Neural Network
+
 
 ## Contact
 Feel free to contact me to discuss these implementations by [email](mailto:idonissim@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/idonissim/).
